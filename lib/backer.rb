@@ -10,7 +10,7 @@ def initialize(name)
 end
 
 def backed_projects(project)
-  binding.pry
+
   @backed_projects << project
   project.backers << self
 end
