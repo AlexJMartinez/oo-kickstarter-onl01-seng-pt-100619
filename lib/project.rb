@@ -6,4 +6,7 @@ def initialize(title)
   @backers = []
 end
 
+def add_backer
+end
+
 end
