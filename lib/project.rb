@@ -6,7 +6,9 @@ def initialize(title)
   @backers = []
 end
 
-def add_backer
+def add_backer(backer)
+  @backed_projects << project
+  project.backers << self
 end
 
 end
