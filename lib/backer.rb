@@ -12,7 +12,6 @@ end
 def backed_project(project)
   binding.pry
   @backed_projects << project
-
   project.backers << self
 end
 
